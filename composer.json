@@ -1,0 +1,59 @@
+{
+    "name": "project1537/flarum-lang-bosnian",
+    "type": "flarum-extension",
+    "description": "Bosnian Language Pack for Flarum Core and Several Different Extensions",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/project1537/flarum-lang-bosnian/issues",
+        "source": "https://github.com/project1537/flarum-lang-bosnian",
+        "forum": "https://discuss.flarum.org/"
+        "docs": "https://flarum.org/docs/"
+    },
+    "homepage": "https://tefsir.co",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://tefsir.co/"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Mensur Kerla",
+            "email": "mensurkerla@gmail.com",
+            "homepage": "https://tefsir.co"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "suggest": {
+		"project1537/flarum-lang-bosnian": "Bosnian Language Pack for Flarum Core and Several Different Extensions"
+	},
+	"support": {
+    "issues": "https://github.com/project1537/flarum-lang-bosnian/issues",
+    "source": "https://github.com/project1537/flarum-lang-bosnian",
+	},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "authors": [{
+			"name": "project1537",
+			"role": "Translator"
+		}],
+        "flarum-extension": {
+            "title": "Bosnian Language Pack for Flarum Core and Several Different Extensions",
+            "icon": {
+                "image": "flag.svg",
+                "backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "bs",
+            "title": "Bosanski"
+        }
+    }
+}
