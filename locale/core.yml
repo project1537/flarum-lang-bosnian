@@ -45,7 +45,7 @@ core:
       show_language_selector_label: Show language selector
       slug_driver_heading: "Slug Driver: {model}"
       slug_driver_text: Select a driver to be used for slugging this model.
-      title: Basics
+      title: Osnove
       welcome_banner_heading: Welcome Banner
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
 
@@ -73,7 +73,7 @@ core:
       color_label: => core.ref.color
       delete_button: Izbriši grupu
       delete_confirmation: "Sigurni ste da želite izbrisati ovu grupu? Članovi grupe NEĆE biti izbrisani."
-      hide_label: Sakrij na Forumu
+      hide_label: Sakrij na forumu
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: Ime
