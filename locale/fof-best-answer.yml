@@ -1,0 +1,63 @@
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: Odabir najboljeg odgovor (moje diskusije)
+      best_answer_not_own_discussion: Odaberite najbolji odgovor (diskusije drugih)
+    settings:
+      label:
+        general: General
+        reminders: Reminders
+        advanced: Advanced
+        reminders_notice: For reminders to function correctly, you must have set up the Flarum scheduler correctly.
+      allow_select_own_post: Dozvoli korisnicima da za najbolji odgovor odaberu vlastite objave
+      select_best_answer_reminder_days: Podsjeti korisnike da izaberu najbolji odgovor nakon X dana
+      schedule_on_one_server: Koristi 'onOneServer()' direktivu za raspored zadataka (zahtijeva Redis/Memcache)
+      schedule_stop_overnight: Onemogući zakazane podsjetnike da budu aktivirani u određeno vrijeme (9pm - 8am serversko vrijeme)
+      schedule_log_output: Dodaj dnevnik aktivnosti u arhivu
+      remind_tag_ids: Za onemogućavanje podsjetnika o određenoj oznaci diskusije, dodaj ID oznake ovdje (odvojiti zarezima)
+      use_alt_ui: Korisni alternativni prikaz opcija (dugmić za najbolji odgovor smješten na dnu objave)
+  forum:
+    answered_badge: Odgovoreno
+    this_best_answer: Odaberi najbolji odgovor
+    remove_best_answer: Ukloni oznaku "najbolji odgovor"
+    best_answer_button: NAJBOLJI ODGOVOR
+    best_answer_label: izabrao/la <a>{username}</a>
+    errors:
+      mismatch: "Odabrana objava ne postoji u ovoj diskusiji"
+
+    notification:
+      best_answer_in_discussion: "{username} je izabrao/la najbolji odgovor/najbolju objavu u ovoj diskusiji"
+      content: Molimo Vas da odaberete najbolji odgovor ako je ova diskusija završena
+      awarded: Vaša objava je označena kao najbolji odgovor u diskusiji od strane korisnika/ce {username}
+
+      preferences:
+        awarded_best_answer: Kad je neko označio moju objavu kao najbolji odgovor
+        best_answer_in_discussion: Kad je izabran najbolji odgovor/najbolja objava u diskusiji u kojoj učestvujem
+  email:
+    subject:
+      awarded: Vaša objava je izabrana kao najbolji odgovor u diskusiji od stane korisnika/ce {display_name}
+      ba-set: Najbolji odgovor odabrao/la je {display_name}
+      select: Da li ste došli do željenih informacija i odgovora u ovoj diskusiji?
+    body:
+      awarded: |
+        Poštovani/na {recipient_display_name},
+
+        Čestitamo, {actor_display_name} je upravo odabrao/la upravo Vašu objavu/komentar kao najbolji odgovor u diskusiji o temi '{discussion_title}'. Hvala Vam na učešću u diskusijama i pomoći koji ste pružili drugim članovima Foruma.
+
+        Spomenutu diskusiju možete pogledati na: {discussion_url}
+      ba-set: |
+        Poštovani/na {recipient_display_name},
+
+        {actor_display_name} je upravo odabrao/la najbolji odgovor u diskusiji o temi '{discussion_title}' u kojoj i sami učestvujete.
+
+        Spomenutu diskusiju i najbolji odgovor možete pogledati na: {discussion_url}
+      select: |
+        Poštovani/na {recipient_display_name},
+
+        Ova email poruka je samo mala napomena na diskusiju koju ste započeli nekad ranije. Do sada bi trebali imati mnoge objave i komentare u diskusiji o temi '{discussion_title}'. Nadamo se da je neko od članova Foruma ponudio informacije i odgovore koje ste tražili.
+
+        Ako je tako, bilo bi od iznimne važnosti za buduće članove Foruma da izaberete najbolji odgovor/objavu u diskusiji. To će sigurno pomoći korisnicima koji budu imali ista pitanja (ili probleme) da brže i lakše pronađu odgovore i rješenja.
+
+        Spomenutu diskusiju možete pogledati na: {discussion_url}, i tu svakako možete izabrati odgovarajuću objavu kao najbolji odgovor u njoj.
+
+        Hvala Vam!
