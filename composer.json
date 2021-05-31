@@ -1,7 +1,7 @@
 {
     "name": "project1537/flarum-lang-bosnian",
     "type": "flarum-extension",
-    "description": "Bosnian Language Pack for Flarum Core and Several Different Extensions",
+    "description": "Bosnian Language Pack for Flarum Core and Multiple Extensions",
     "keywords": ["locale"],
     "license": "MIT",
     "support": {
@@ -28,7 +28,7 @@
         "flarum/core": "^1.0.0"
     },
     "suggest": {
-		"project1537/flarum-lang-bosnian": "Bosnian Language Pack for Flarum Core and Several Different Extensions"
+		"project1537/flarum-lang-bosnian": "Bosnian Language Pack for Flarum Core and Multiple Extensions"
 	},
 	"support": {
     "issues": "https://github.com/project1537/flarum-lang-bosnian/issues",
@@ -43,7 +43,7 @@
 			"role": "Translator"
 		}],
         "flarum-extension": {
-            "title": "Bosnian Language Pack for Flarum Core and Several Different Extensions",
+            "title": "Bosnian Language Pack for Flarum Core and Multiple Extensions",
             "icon": {
                 "image": "flag.svg",
                 "backgroundColor": "#ffffff",
