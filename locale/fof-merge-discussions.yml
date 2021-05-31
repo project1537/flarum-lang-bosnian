@@ -1,0 +1,32 @@
+fof-merge-discussions:
+  forum:
+    modal:
+      title: Spoji diskusije
+
+      type_target_label: Spoji sa ovom diskusijom
+      type_target_help_text: Spoji diskusiju ili više njih o temi <b>{title}</b>.
+
+      type_from_label: Spoji ovu diskusiju sa drugom diskusijom
+      type_from_help_text: Izaberite diskusiju s kojom ćete spojiti diskusiju o temi <b>{title}</b>.
+
+      load_preview_button: Pregled
+      submit_button: => fof-merge-discussions.ref.merge
+
+    discussion:
+      merge: => fof-merge-discussions.ref.merge
+
+    post:
+      merged: Spojena <b>{count}</b> objava iz diskusije o temi {titles}.|Spojeno <b>{count}</b> objava iz diskusije o temi {titles}.
+
+  admin:
+    permissions:
+      merge_discussions_label: Spoji diskusije
+
+  api:
+    error:
+      merging_failed: Neuspješno spajanje diskusija.
+      updating_failed: Neuspješno ažuriranje detalja o diskusiji.
+      deleting_failed: Neuspješno brisanje praznih diskusija.
+
+  ref:
+    merge: Spoji
