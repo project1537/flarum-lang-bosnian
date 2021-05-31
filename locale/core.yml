@@ -415,7 +415,7 @@ core:
       now_link: Sada
       original_post_link: Početak diskusije
       unread_text: "{count} nepročitano"
-      viewing_text: "{index} od {count} objave|{index} od {count} objava"
+      viewing_text: "{count, plural, one {{index} od {formattedCount} objave} other {{index} od {formattedCount} objava}}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
