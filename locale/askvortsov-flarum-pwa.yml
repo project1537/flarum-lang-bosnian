@@ -1,0 +1,69 @@
+askvortsov-pwa:
+  admin:
+    nav:
+      pwa_button: Progresivna web aplikacija
+      pwa_text: Podesite Flarum kao progresivnu web aplikaciju koju je moguće instalirati na mobilne uređaje.
+    pwa:
+      about:
+        description_text: Opis možete urediti pod "Osnovne" ("Basics") unutar administratorske upravljačke ploče.
+        long_name_text: Naziv web progresivne aplikacije koji će biti prikazan korisnicima.
+        heading: O
+        short_name_text: (Kratki) naziv web progresivne aplikacije koji će biti prikazan korisnicima ukoliko prvobitni naziv bude predug.
+      colors:
+        heading: Boje
+        background_color_text: This is used as a placeholder color for the splash screen that's displayed while your PWA is being loaded. It is not used when the app is actually loaded.
+        theme_color_text: This color is sometimes used by devices when displaying your app, for example on Android's task switcher, as the color that surround the site.
+      maintenance:
+        heading: Održavanje
+        debug_label: Mod za rješavanje problema? Ovo će evidentirati informacije u dnevnik aktivnosti na lokaciji `storage/logs`.
+      other:
+        heading: Ostalo
+        force_portrait_text: Prinutno omogući Force portretnu orijentaciju?
+      heading: Konfiguracija progresivne web aplikacije
+      text: Configure your Flarum site to run as a progressive web app! Please note that this doesn't automatically put your site in the app store. Instead, this means that users have an 'Add to Homescreen' option for your site. We provide some status checks, however, the best way to test this is to try and install it (search on google for instructions on how to install progressive web apps). Also, please keep in mind that 'install this PWA' popups are controlled by browsers, and cannot be triggered by developers/admins/programs. I recommend including instructions for how to install a PWA in your site's documentation.
+      status_check_heading: Provjera statusa
+      logo_heading: Logo i ikon(ic)e
+      logo_text: |
+        You must upload at least one logo for your progressive web app to be installable. Please note that all logos must be square; if they are not, they will be resized and possibly stretched.
+
+        There are a number of size options available below. I would recommend trying to upload a logo to as many as you can: this supports more devices.
+
+        Please note that you can upload 1 large logo to inputs for smaller logos. For instance, you can upload a 1000px x 1000px logo to ALL the file inputs below. However, if you try to upload a 50px x 50px logo to the 512x512 input, it will be stretched a lot.
+
+      logo_size_text: Priloži logo čija veličina će biti promijenjena u {size} puta {size} piksela.
+      submit_button: Spremi postavke
+      refreshed_message: PWA konfiguracija uspješno ažurirana.
+    status:
+      config_no_https: The url in your config.php file isn't using HTTPS. HTTPS is required for Progressive Web Apps to work.
+      possible_https_disabled: Moguće je da Vaša web stranica ne koristi HTTPS. Brisanje cache (privremene) memorije (administratorska upravljačka ploča => dugmić alati) moglo bi biti od pomoći. Ako ste na taj način riješili problem, ignorišite napomenu o HTTPS i imajte na umu da je HTTPS jedan od preduvjeta da progresivna web aplikacija uopće radi.
+      no_logo: Neophodno je da proložite barem jedan logo čija veličina mora biti najmanje 196px.
+      no_name: Neophodno je da upišete puni naziv aplikacije.
+      key_gen_failed: "Generation of keys needed for push notifications has failed. The full error message was: {error}"
+      suggest_gmp: The gmp PHP extension doesn't seem to be enabled on your server. It's not strictly necessary, but can improve performance and is recommended. Some shared hosts might not support it though.
+      success: Nisu uočeni potencijalni problemi ili prepreke!
+  forum:
+    alerts:
+      optin: Omogućili ste push obavještenja, ali još uvijek niste uredili postavke za ovaj uređaj.
+      optin_button: Postavke
+    discussion_controls:
+      share_button: Dijeli
+    post_controls:
+      share_button: Dijeli
+      share_api:
+        title: "{username} je objavio/la u diskusiji o temi {title}'"
+    user_controls:
+      share_button: Dijeli
+    settings:
+      push_header: PWA
+      pwa_notifications:
+        access_default: Zbog restrikcija web preglednika morat najprije dozvoliti primanje push obavještenja na ovom uređaju.
+        access_default_button: Dozvoli
+        access_denied: Za primanje push obavještenja na ovom uređaju morate urediti postavke web preglednika.
+        access_denied_button: Saznaj kako
+        no_browser_support: Ovaj web preglednik ne podržava push obavještenja za progresivne web aplikacije.
+        no_browser_support_button: Opširnije
+
+  views:
+    offline:
+      header: Provjerite internet vezu!
+      text: Za korištenje ove progresivne web aplikacije (PWA) potrebna je aktivna internet veza. Provjerite Vašu internet vezu i/ili osvježite stranicu.
