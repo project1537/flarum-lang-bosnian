@@ -1,0 +1,14 @@
+ianm-synopsis:
+  admin:
+    settings:
+      excerpt-label: Dužina izdvojenog dijela diskusije (broj karaktera)
+      rich-excerpts: Prikaži izvadak koristeći potpuno formatirani sadržaj (ovu opciju koristiti uz oprez!)
+      excerpt-type: Koja objava treba biti prikazana kao izvadak?
+      first-label: Prva objava
+      last-label: Posljednja objava
+  forum:
+    user:
+      settings:
+        summaries-heading: Izvadak
+        show-summaries: Prikaži izvadak (iz) svake diskusije u listi diskusija (desktop i/ili tablet)
+        show-summaries-mobile: Prikaži izvadak (iz) svake diskusije u listi diskusija (mobilni uređaj)
