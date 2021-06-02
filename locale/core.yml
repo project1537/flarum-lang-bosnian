@@ -280,7 +280,7 @@ core:
     # These translations are used by the composer controls.
     composer:
       close_tooltip: Zatvori
-      exit_full_screen_tooltip: Izađi iz opcije 'preko cijelog ekrana'
+      exit_full_screen_tooltip: Izađi iz opcije preko cijelog ekrana
       full_screen_tooltip: Preko cijelog ekrana
       minimize_tooltip: Minimiziraj
       preview_tooltip: Pregled
