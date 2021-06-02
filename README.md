@@ -12,18 +12,20 @@
 <b>LICENSE:</b> MIT LICENSE
 
 
+***
 
-
-### INSTALLATION
+### INSTALL
 Flarum use Composer to manage its dependencies and extensions. The Language Pack for Flarum Core and Multiple Extensions is available on Packagist and can be managed that way. Make sure that Composer v2.0 is installed on your machine, then run the following command in the location where Flarum is installed:
 
 <code>composer require project1537/flarum-lang-bosnian:"*"</code>
 
 
-### UPDATING
+### UPDATE
 Just like the installation procedure, make sure that Composer v2.0 is installed on your machine, then run the following commands in the location where Flarum is installed:
 
 <code>composer update project1537/flarum-lang-bosnian</code>
 
 <code>php flarum cache:clear</code>
 
+### REMOVE
+<code>composer remove project1537/flarum-lang-bosnian</code>
