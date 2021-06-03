@@ -2,9 +2,7 @@ fof-upload:
   admin:
     pane:
       title: Prilaganje datoteka
-      description: Postavke prilaganja datoteka i servisa za pohranjivanje.
-    buttons:
-      save: Save settings
+      description: Postavke prilaganja datoteka i servisa za pohranjivanje
     help_texts:
       disable-download-logging: |
         Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.
