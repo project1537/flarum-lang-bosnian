@@ -37,7 +37,7 @@ the-turk-diff:
         editedInfo:                   => core.forum.post.edited_tooltip
         deletedInfo:                  "{username} je izbrisao/la je sadržaj {ago}"
         createdInfo:                  "{username} kreirao/la {ago}"
-        revisionInfo:                 "Uređivano {revisionCount, plural, one {{revisionCount} put} other {{revisionCount} puta}}, newest at the top"
+        revisionInfo:                 "Uređivano {revisionCount, plural, one {{revisionCount} put} other {{revisionCount} puta}}, najnovija verzija je na vrhu"
         noDiff:                       Nema razulika između ova dva sadržaja.
 
         differences:
