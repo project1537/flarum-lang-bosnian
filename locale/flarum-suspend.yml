@@ -9,7 +9,7 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Suspendiraj korisnike
+      suspend_users_label: Suspenduj korisnike
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -22,7 +22,7 @@ flarum-suspend:
     suspend_user:
       indefinitely_label: Suspendovan/a na neodređeno vrijeme
       limited_time_days_text: " dana"
-      limited_time_label: Suspendovan na određeno vrijeme...
+      limited_time_label: Suspendovan/a na određeno vrijeme...
       not_suspended_label: Nesuspendovan
       status_heading: Status suspenzije
       submit_button: => core.ref.save_changes
@@ -30,7 +30,7 @@ flarum-suspend:
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Suspendovan
+      suspended_tooltip: Suspendovan/a
 
     # These translations are found on the user profile page (admin function).
     user_controls:
