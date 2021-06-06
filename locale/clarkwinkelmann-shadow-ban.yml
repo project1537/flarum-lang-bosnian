@@ -7,18 +7,18 @@ clarkwinkelmann-shadow-ban:
             hide: Može diskretno sakriti diskusije i objave korisnika
     forum:
         discussionControl:
-            hide: Diskretno zabrani aktivnosti
-            restore: Diskretno odobri aktivnosti
+            hide: Diskretno sakrij diskusiju
+            restore: Diskretno (po)vrati diskusiju
         postControl:
-            hide: Diskretno zabrani aktivnosti
-            restore: Diskretno odobri aktivnosti
+            hide: Diskretno sakrij objavu
+            restore: Diskretno (po)vrati objavu
         userControl:
-            ban: Diskretno odobri aktivnosti na forumu
+            ban: Diskretno zabrani aktivnosti
         banUser:
             title: "Suspenduj korisnika/cu {username}"
             until: do datuma (UTC)
             quick: Brze akcije
-            quickChoiceReset: Ukini diskretnu zabranu aktivnosti
+            quickChoiceReset: Ukini zabranu
             quickChoiceDays: "{count, plural, one {# dan} other {# dana}}"
             submit: Spremi
         badge:
