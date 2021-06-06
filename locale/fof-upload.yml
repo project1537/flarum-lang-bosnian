@@ -117,7 +117,7 @@ fof-upload:
       modal_empty_desktop: Lista Vaših datoteka je prazna. Za prilaganje datoteka kliknite dugmić (PRILOŽI DATOTEKU) ili povucite datoteku ovdje.
       modal_empty_phone: Lista Vaših datoteka je prazna. Pritisnite dugmić (PRILOŽI DATOTEKU) iznad za prilaganje datoteka.
       select_file_a11y_label: Odaberi datoteku "{fileName}"
-      confirm_selection_btn: Odaberite datoteku|Odaberite datoteke
+      confirm_selection_btn: "{fileCount, plural, =0 {Nema odabranih datoteka} one {Odaberite datoteku} other {Odaberite datoteke}}"
       load_more_files_btn: Prikaži više datoteka
       hide_file:
         btn_a11y_label: Sakrij "{fileName}" iz upravitelja datotekama
