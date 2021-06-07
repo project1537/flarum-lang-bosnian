@@ -94,11 +94,11 @@ flarum-tags:
       added_and_removed_tags_text: "{username} je dodao/la oznaku {tagsAdded}, te je uklonio/la oznaku {tagsRemoved}."
       added_tags_text: "{username} je dodao/la oznaku {tagsAdded}."
       removed_tags_text: "{username} je uklonio/la oznaku {tagsRemoved}."
-      tags_text: "{tags}|{tags}"
+      tags_text: "{count, plural, one {{tags} oznaka} other {{tags} oznake}}"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
-      meta_description_text: "All discussions with the {tag} tag"
+      meta_description_text: "Sve diskusije sa oznakom {tag}"
 
     # Translations in this namespace are used by the forum and admin interfaces.
   lib:
