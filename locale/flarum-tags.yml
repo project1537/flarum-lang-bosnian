@@ -92,8 +92,8 @@ flarum-tags:
     # These translations are displayed between posts in the post stream.
     post_stream:
       added_and_removed_tags_text: "{username} je dodao/la oznaku {tagsAdded}, te je uklonio/la oznaku {tagsRemoved}."
-      added_tags_text: "{username} je dodao/la oznaku {tagsAdded}."
-      removed_tags_text: "{username} je uklonio/la oznaku {tagsRemoved}."
+      added_tags_text: "{username} je dodao/la {tagsAdded}."
+      removed_tags_text: "{username} je uklonio/la {tagsRemoved}."
       tags_text: "{count, plural, one {{tags} oznaka} other {{tags} oznake}}"
 
     # These translations are used when visiting a single tag's discussion list.
