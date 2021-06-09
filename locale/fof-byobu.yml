@@ -14,10 +14,10 @@ fof-byobu:
             submit_button: Pokreni privatnu diskusiju
             title_placeholder: Naslov privatne diskusije
         labels:
-            recipients: "{count} učesnik/ca|{count} učesnika/ca"
+            recipients: "{count, plural, one {{count} učesnik/ca} other {{count} učesnika/ca}}"
             user_deleted: -izbrisan-
         nav:
-            start_button: Nova privatna diskusija
+            start_button: Nova diskusija
             nav_item: "Privatne diskusije"
         input:
             search_recipients: Pretraži učesnike/članove Foruma privatne diskusije upisujući prva tri slova korisničkog imena...
