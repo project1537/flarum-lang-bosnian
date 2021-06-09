@@ -11,7 +11,7 @@ fof-byobu:
             cancel: Odustani
             remove_from_discussion: Napusti ovu privatnu diskusiju
         composer_private_discussion:
-            submit_button: Pokreni privatnu diskusiju
+            submit_button: Započni privatnu diskusiju
             title_placeholder: Naslov privatne diskusije
         labels:
             recipients: "{count, plural, one {{count} učesnik/ca} other {{count} učesnika/ca}}"
