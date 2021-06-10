@@ -69,7 +69,7 @@ fof-terms:
 
         update-alert:
             must-accept-message: Administracija foruma je privremeno blokirala pristup Vašem korisničkom računu dok ne provjerite i pročitate ažurirane uslove korištenja i/ili Pravila foruma.
-            can-accept-message: Nedavno smo ažurirali Opće uslove korištenja, Politiku privatnosti i zaštite korisničkih podataka i/ili Pravila foruma. Molimo Vas da ih pročitate i prihvatite.
+            can-accept-message: Ažurirali smo Opće uslove korištenja, Politiku privatnosti i zaštite korisničkih podataka i/ili Pravila foruma. Molimo Vas da ih pročitate i prihvatite.
             review: OPŠIRNIJE...
 
         user_controls:
