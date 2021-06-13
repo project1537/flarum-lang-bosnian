@@ -3,7 +3,7 @@ fof-polls:
     permissions:
       view_results_without_voting: Pregled rezultata ankete bez učešća (glasanja)
       start: Započni anketu
-      self_edit: Dozvoli korisnicima da  uređuju ankete koje su započeli
+      self_edit: Dozvoli korisnicima da uređuju ankete koje su započeli
       vote: Učestvuj u anketi
       change_vote: Promijeni glas(ove)
       moderate: Uređuj i izbriši ankete
