@@ -21,6 +21,7 @@ fof-discussion-language:
       show_flag_label: Prikaži zastav(ic)u države uz naziv jezika
       composer_default_label: (Pred)odredi trenutno izabrani jezik u uređivaču teksta 
       locale_sort_label: Koristi otkrivene jezike za postojeći filter diskusija
+      show_any_lang_opt_label: Prikaži opciju izbora "Svi jezici".
 
     permissions:
       allow_change_language_label: Dozvoli uređivanje jezika
