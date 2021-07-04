@@ -688,7 +688,7 @@ core:
     save_changes: Spasi izmjene                  # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Postavke
     sign_up: REGISTRACIJA
-    some_others: "{count} drugi|{count} drugih"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count, plural, one {# drugi} other {# drugih}}"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Započni diskusiju
     username: Korisničko ime
     users: Korisnici                                 # Referenced by flarum-statistics.yml
