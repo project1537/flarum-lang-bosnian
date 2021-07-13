@@ -4,15 +4,15 @@ justoverclock-feedback:
     feedback1-title: Tip kontakta 1
     feedback1-title-help: Ovdje prilagodite naziv "tipa kontakta 1"
     feedback1-icon: Ikonica za tip kontakta 1
-    feedback1-icon-help: Umetnite ikonicu uz tekst, npr.: "⚠, ☎, ✎". Više ikonica  potražite na https://coolsymbol.com/
+    feedback1-icon-help: Umetnite ikonicu uz tekst, npr. "⚠, ☎, ✎". Više ikonica  potražite na https://coolsymbol.com/
     feedback2-title: Tip kontakta 2
     feedback1-title-help: Ovdje prilagodite naziv "tipa kontakta 2"
     feedback2-icon: Ikonica za tip kontakta 2
-    feedback2-icon-help: Umetnite ikonicu uz tekst, npr.: "⚠, ☎, ✎". Više ikonica  potražite na https://coolsymbol.com/
+    feedback2-icon-help: Umetnite ikonicu uz tekst, npr. "⚠, ☎, ✎". Više ikonica  potražite na https://coolsymbol.com/
     feedback3-title: Tip kontakta 2
     feedback3-title-help: Ovdje prilagodite naziv "tipa kontakta 3"
     feedback3-icon: Ikonica za tip kontakta 3
-    feedback3-icon-help: Umetnite ikonicu uz tekst, npr.: "⚠, ☎, ✎". Više ikonica  potražite na https://coolsymbol.com/
+    feedback3-icon-help: Umetnite ikonicu uz tekst, npr. "⚠, ☎, ✎". Više ikonica  potražite na https://coolsymbol.com/
     contactdesc: Ovo polje mora biti ispunjeno kako bi se u potpunosti omogućio kontakt dugmić
     collect-email: Prikaži korisnicima (opcionalno) polje za unos email adrese
     collect-email-help: Kada je ova opcija omogućena, korisnici će moći dodati vlastitu email adresu uz kontakt poruku
