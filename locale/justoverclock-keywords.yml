@@ -1,0 +1,11 @@
+flarum-ext-keywords:
+  forum:
+    title: Pojmovnik
+    pagetitle: Pojmovnik
+    tagline: Želite saznati više o pojmovima koje koristimo na forumu? Pogledajte naš pojmovnik ili koristite opciju njegovog pretraživanja.
+    searchtext: Pretraživanje pojmovnika..
+  admin:
+    word: Pojam
+    removedef: Izbriši definiciju
+    definition: Definicija
+    parseonce: Prikaži definiciju pojma samo jednom u objavi
