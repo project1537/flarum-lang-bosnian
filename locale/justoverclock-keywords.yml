@@ -3,7 +3,7 @@ flarum-ext-keywords:
     title: Pojmovnik
     pagetitle: Pojmovnik
     tagline: Želite saznati više o pojmovima koje koristimo na forumu? Pogledajte naš pojmovnik ili koristite opciju njegovog pretraživanja.
-    searchtext: Pretraživanje pojmovnika..
+    searchtext: Pretraživanje pojmovnika...
   admin:
     word: Pojam
     removedef: Izbriši definiciju
