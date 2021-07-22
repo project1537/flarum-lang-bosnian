@@ -1,0 +1,16 @@
+ralkage-hcaptcha:
+  admin:
+    settings:
+      help_text: hCaptcha akreditive možete dobiti <a>ovdje</a>.
+      secret_key_label: Tajni ključ (Secret Key)
+      site_key_label: Ključ stranice (Site Key)
+      type_label: hCaptcha tip
+    permissions:
+      post_without_hcaptcha: Može upisati objave i započeti diskusije bez hCaptcha provjere
+  forum:
+    # This text is shown on the javascript error callback for hCaptcha.
+    # This is a generic error handler and we don't have access to the reason, so the message has to be vague.
+    error: Došlo je do greške prilikom slanja hCaptcha odgovora. Pokušajte ponovo.
+
+validation:
+  hcaptcha: Neuspješna hCaptcha validacija.
