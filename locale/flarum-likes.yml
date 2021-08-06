@@ -9,7 +9,7 @@ flarum-likes:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: Označi objave sa "sviđa mi se"
+      like_posts_label: Može označiti objave sa "sviđa mi se"
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -17,13 +17,13 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "Korisniku {username} se sviđa Vaša objava"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "Korisniku/ci {username} se sviđa Vaša objava"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
       like_link: Sviđa mi se
       liked_by_self_text: "Korisniku {users} se sviđa ovo."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "Korisnicima {users} se sviđa ovo.|Korisnicima {users} se sviđa ovo."
+      liked_by_text: "{count, plural, one {{users} je označio/la ovu objasu sa 👍} other {{users} su označili ovu objasu sa 👍}}."
       others_link: => core.ref.some_others
       unlike_link: Ne sviđa mi se
       you_text: => core.ref.you
