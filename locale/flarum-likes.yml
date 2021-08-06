@@ -23,7 +23,7 @@ flarum-likes:
     post:
       like_link: Sviđa mi se
       liked_by_self_text: "Korisniku {users} se sviđa ovo."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{count, plural, one {{users} je označio/la ovu objasu sa 👍} other {{users} su označili ovu objasu sa 👍}}."
+      liked_by_text: "{count, plural, one {{users} je označio/la ovu objavu sa 👍} other {{users} su označili ovu objavu sa 👍}}."
       others_link: => core.ref.some_others
       unlike_link: Ne sviđa mi se
       you_text: => core.ref.you
