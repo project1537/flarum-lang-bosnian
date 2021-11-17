@@ -1,0 +1,10 @@
+acpl-lscache:
+  admin:
+    public_cache_ttl_label: 'Zadane postavke TTL-a javne predmemorije '
+    public_cache_ttl_help: 'Odredite koliko dugo su, u sekundama, javno dostupne stranice spremljene u predmemoriji. Zadana vrijednost je 300 sekundi'
+
+    purge_on_discussion_update_label: 'Očisti URL ili oznake kada je diskusija ili objava ažurirana'
+    purge_on_discussion_update_help: 'Precizirajte jedan URL ili oznaku po liniji. URL bi trebao počinjati sa <code>/</code>, npr. <code>/rankings</code> a oznaka sa <code>tag=</code>, npr. <code>tag=rankings</code>. This extension tags every route and for example if you have a lot of routes that you would like to purge, it is better to add a rule in .htaccess with a regular expression that will tag the routes and here in the settings enter only this tag. This method will be much faster. <a>Learn more</a>. By default, the cache for the homepage is purged, as well as the cache for the updated discussions'
+
+    purge_all: 'Očisti sve iz LSCache'
+    purge_all_success: 'Obaviješten LiteSpeed Web Server da očisti sve LSCache unose'
