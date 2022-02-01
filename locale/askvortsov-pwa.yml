@@ -5,22 +5,32 @@ askvortsov-pwa:
       pwa_text: Podesite Flarum kao progresivnu web aplikaciju koju je moguće instalirati na mobilne uređaje.
     pwa:
       about:
+        description_label: Opis
         description_text: Opis možete urediti pod "Osnovne" ("Basics") unutar administratorske upravljačke ploče.
+        long_name_label: Puni naziv
         long_name_text: Naziv web progresivne aplikacije koji će biti prikazan korisnicima.
-        heading: O
+        heading: O aplikaciji
+        short_name_label: Skraćeni naziv
         short_name_text: (Kratki) naziv web progresivne aplikacije koji će biti prikazan korisnicima ukoliko prvobitni naziv bude predug.
       colors:
         heading: Boje
+        background_color_label: Boja pozadine
         background_color_text: This is used as a placeholder color for the splash screen that's displayed while your PWA is being loaded. It is not used when the app is actually loaded.
+        theme_color_label: Boja teme
         theme_color_text: This color is sometimes used by devices when displaying your app, for example on Android's task switcher, as the color that surround the site.
       maintenance:
         heading: Održavanje
-        debug_label: Mod za rješavanje problema? Ovo će evidentirati informacije u dnevnik aktivnosti na lokaciji `storage/logs`.
+        debug_label: Mod za rješavanje problema?
+        debug_text:: Ovo će evidentirati informacije u dnevnik aktivnosti na lokaciji `storage/logs`.
+        reset_vapid_text: This will regenerate VAPID keys, and delete any existing subscriptions using the current VAPID keys.
+        reset_vapid_confirm: Resetting VAPID keys will remove any subscriptions using the existing keys, so users won't receive any notifications until the next time they visit your site. This should only be done when setting up push notifications for the first time, or if push notifications aren't working at all and there's a warning about missing VAPID keys above.
+        reset_vapid_success: Successfully reset VAPID keys. {count} subscriptions were reset. Reload the page to see an updated status check report.
       other:
         heading: Ostalo
         force_portrait_text: Prinutno omogući Force portretnu orijentaciju?
       heading: Konfiguracija progresivne web aplikacije
       text: Podesite Vaš Flarum da bude pokrenut i korišten kao progresivna web aplikacija! Imajte na umu da ovo neće postaviti vašu stranicu direktno u trgovinu aplikacijama. Umjesto toga, posjetioci i korisnici imat će opciju 'Add to Homescreen' za Vašu web stranicu. 
+      status_check_heading: Provjera statusa
       logo_heading: Logo i ikon(ic)e
       logo_text: |
         You must upload at least one logo for your progressive web app to be installable. Please note that all logos must be square; if they are not, they will be resized and possibly stretched.
@@ -37,6 +47,7 @@ askvortsov-pwa:
       possible_https_disabled: Moguće je da Vaša web stranica ne koristi HTTPS. Brisanje cache (privremene) memorije (administratorska upravljačka ploča => dugmić alati) moglo bi biti od pomoći. Ako ste na taj način riješili problem, ignorišite napomenu o HTTPS i imajte na umu da je HTTPS jedan od preduvjeta da progresivna web aplikacija uopće radi.
       no_logo: Neophodno je da proložite barem jedan logo čija veličina mora biti najmanje 196px.
       no_name: Neophodno je da upišete puni naziv aplikacije.
+      no_vapid_keys: No VAPID keys found. These are required for push notifications to send. You can reset VAPID keys below.
       key_gen_failed: "neuspješno generisanje ključeva koji su potrebni za push obavještenja. Kompletan opis greške je: {error}"
       suggest_gmp: GMP PHP proširenje nije omogućeno na Vašem serveru. Ovo proširenje ponekad i nije nužno, ali može značajno poboljšati performanse, te je stoga i preporučeno da je omogućite. Moguće je da neki hosting servisi i provajderi ne podržavaju ovo proširenje.
       success: Nisu uočeni potencijalni problemi ili prepreke!
@@ -49,7 +60,7 @@ askvortsov-pwa:
     post_controls:
       share_button: Dijeli
       share_api:
-        title: "{username} je objavio/la u diskusiji o temi {title}'"
+        title: "{username} objavljuje u diskusiji o temi {title}'"
     user_controls:
       share_button: Dijeli
     settings:
