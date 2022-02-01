@@ -10,22 +10,22 @@
         "forum": "https://discuss.flarum.org/",
         "docs": "https://flarum.org/docs/"
     },
-    "homepage": "https://tefsir.co",
+    "homepage": "https://medresa.me",
     "funding": [
         {
             "type": "website",
-            "url": "https://tefsir.co/"
+            "url": "https://medresa.me/"
         }
     ],
     "authors": [
         {
             "name": "Mensur Kerla",
             "email": "mensurkerla@gmail.com",
-            "homepage": "https://tefsir.co"
+            "homepage": "https://medresa.me"
         }
     ],
     "require": {
-        "flarum/core": "^1.0.0"
+        "flarum/core": "^1.2.0"
     },
     "suggest": {
 		"project1537/flarum-lang-bosnian": "Bosnian Language Pack for Flarum Core and Multiple Extensions"
