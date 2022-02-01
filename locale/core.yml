@@ -205,7 +205,7 @@ core:
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Neograničeno
-      allow_some_minutes_button: "Nakon {count} minute|Nakon {count} minuta"
+      allow_some_minutes_button: "{count, plural, one {nakon # minute} other {nakon # minuta}}"
       allow_ten_minutes_button: 10 minuta
       allow_until_reply_button: Do sljedećeg odgovora
       everyone_button: Svi
@@ -600,7 +600,7 @@ core:
     content:
       javascript_disabled_message: Ova web stranica je najbolje prikazana u web pregledniku sa omogućenim JavaScript.
       load_error_message: Nešto nije u redu. Pokušajte osvježiti stranicu.
-      loading_text: => core.ref.loading.
+      loading_text: => core.ref.loading
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
