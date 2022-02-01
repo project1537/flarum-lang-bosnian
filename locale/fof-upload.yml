@@ -58,6 +58,7 @@ fof-upload:
         max_file_size: Maximum file size (in kilobytes)
         mime_types: 'Configure your mime type, upload adapter mapping'
         title: General preferences
+        php_ini_values: "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
       resize:
         max_width: Maximum image width/height
         title: Image resize
@@ -86,14 +87,23 @@ fof-upload:
       file_description: |
         Shows the file name and some general information. Proxies downloads through php, allowing for statistics gathering and hotlink protection.
       image: Default image download template
+      image_description: |
+        Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.
       image-preview: Complete image preview template
       image-preview_description: |
         Shows the complete image in-line. No download functionality, no statistics are gathered and hotlink protection is ignored.
-      image_description: |
-        Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.
+      markdown-image: Markdown image template
+      markdown-image_description: |
+        Shows the complete image in-line using Markdown. <strong>You must have flarum/markdown installed and enabled for this to work.</strong> No download functionality, no statistics are gathered and hotlink protection is ignored.
+      bbcode-image: BBCode image template
+      bbcode-image_description: |
+        Shows the complete image in-line using BBCode. <strong>You must have flarum/bbcode installed and enabled for this to work.</strong> No download functionality, no statistics are gathered and hotlink protection is ignored.
       just-url: Just URL
       just-url_description: |
         Inserts just the URL. Rendering can be handled by other extensions with auto-link ability. No download functionality, no statistics are gathered and hotlink protection is ignored.
+      text-preview: Text preview
+      text-preview_description: |
+        Inserts a preview (first 5 lines) of the text file, with an option to expand to reveal the full contents of the file.
     upload_methods:
       aws-s3: S3/Compatible
       imgur: Imgur
@@ -125,11 +135,22 @@ fof-upload:
         hide_success: Datoteka je skrivena
         hide_fail: Neuspješno skrivanje datoteke pod nazivom "{fileName}"
         loading: Sakrivam datoteku...
-
+    
     states:
       error: Greška
       loading: Prilažem...
       unauthorized: Nemate dopuštenje za preuzimanje datoteka.
+      
+     validation:
+      max_size: "Prilaganje datoteka iznad {max} kb nije dozvoljeno."
+
+    text_preview:
+      expand: Proširi pregled
+      collapse: Smanji regled
+      error: |
+        Greška prilikom pregleda datoteke. Moguće da je datoteka izbrisana ili je njen ID neispravan.
+      no_snippet_preview: "<pregledi će se pojaviti ovdje nakon objavljivanja>"
+      no_snippet: "<nisu dostupni pregledi>"
   api:
     upload_errors:
       forbidden_type: Prilaganje datoteka ovog tipa nije dozvoljeno.
