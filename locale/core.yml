@@ -17,7 +17,7 @@ core:
       custom_header_heading: Custom Header
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
+      custom_styles_text: Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's default styles.
       dark_mode_label: Dark Mode
       description: "Customize your forum's colors, logos, and other variables."
       edit_css_button: Edit Custom CSS
@@ -45,22 +45,22 @@ core:
       show_language_selector_label: Show language selector
       slug_driver_heading: "Slug Driver: {model}"
       slug_driver_text: Select a driver to be used for slugging this model.
-      title: Osnove
+      title: Basics
       welcome_banner_heading: Welcome Banner
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
 
     # These translations are used in the Dashboard page.
     dashboard:
-      clear_cache_button: Očisti cache memoriju
-      description: Vaš forum, ukratko.
-      title: Upravljačka ploča
-      tools_button: Alati
+      clear_cache_button: Clear Cache
+      description: Your forum at a glance.
+      title: Dashboard
+      tools_button: Tools
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's <a>default styles</a>."
       submit_button: => core.ref.save_changes
-      title: Uredi prilagođeni CSS
+      title: Edit Custom CSS
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -71,16 +71,16 @@ core:
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
-      delete_button: Izbriši grupu
-      delete_confirmation: "Sigurni ste da želite izbrisati ovu grupu? Članovi grupe NEĆE biti izbrisani."
-      hide_label: Sakrij na forumu
+      delete_button: Delete Group
+      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
+      hide_label: Hide on forum
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
-      name_label: Ime
-      plural_placeholder: Množina (e.g. Moderatori)
-      singular_placeholder: Jednina (e.g. Moderator)
+      name_label: Name
+      plural_placeholder: Plural (e.g. Mods)
+      singular_placeholder: Singular (e.g. Mod)
       submit_button: => core.ref.save_changes
-      title: Kreiraj grupu
+      title: Create Group
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -90,60 +90,60 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      addresses_heading: Adrese
-      description: "Konfiguriraj drajver, postavke i adrese koje će forum koristiti za slanje email poruka."
-      driver_heading: Izaberite drajver
-      driver_label: Drajver
-      from_label: Pošiljalac
-      mail_encryption_label: Enkripcija
+      addresses_heading: Addresses
+      description: "Configure the driver, settings and addresses your forum will use to send email."
+      driver_heading: Choose a Driver
+      driver_label: Driver
+      from_label: Sender
+      mail_encryption_label: Encryption
       mail_host_label: Host
-      mail_mailgun_domain_label: Domena
-      mail_mailgun_region_label: Regija
-      mail_mailgun_secret_label: Tajni ključ
+      mail_mailgun_domain_label: Domain
+      mail_mailgun_region_label: Region
+      mail_mailgun_secret_label: Secret key
       mail_password_label: => core.ref.password
       mail_port_label: Port
       mail_username_label: => core.ref.username
-      mailgun_heading: Mailgun postavke
-      not_sending_message: Forum trenutno ne može slati email poruke. Ovo može biti prouzrokovano izabranim drajverom ili drugim greškama u njegovoj konfiguraciji.
-      send_test_mail_button: Pošalji
-      send_test_mail_heading: Pošalji test email poruku
-      send_test_mail_success: "Uspješno slanje test email poruke!"
-      send_test_mail_text: "Ova akcija će poslati email poruku koristeći gornju konfiguraciju Vašeg emaila, {email}."
-      smtp_heading: SMTP postavke
+      mailgun_heading: Mailgun Settings
+      not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
+      send_test_mail_button: Send
+      send_test_mail_heading: Send Test Mail
+      send_test_mail_success: "Test mail sent successfully!"
+      send_test_mail_text: "This will send an email using the above configuration to your email, {email}."
+      smtp_heading: SMTP Settings
       title: => core.ref.email
 
     # These translations are used on default extension pages.
     extension:
       configure_scopes: Configure Scopes
-      confirm_uninstall: Uninstalling will remove all database entires and assets related to the extension. Are you sure you want to contiune?
-      disabled: Onemogućeno
-      enable_to_see: Omogućite ovo proširenje kako bi pregledali i promijenili postavke.
-      enabled: Omogućeno
+      confirm_purge: Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?
+      disabled: Disabled
+      enable_to_see: Enable the extension to view and change settings.
+      enabled: Enabled
       info_links:
-        discuss: Diskusija
-        documentation: Dokumentacija
-        donate: Doniraj
-        source: Izvor
-        support: Podrška
-        website: Web stranica
-      no_permissions: Ovo proširenje nema dodatnih dozvola.
-      no_settings: Ovo proširenje nema dodatnih postavki.
-      open_modal: Otvori postavke
-      permissions_title: Dozvole
-      uninstall_button: Uklanjanje
+        discuss: Discuss
+        documentation: Documentation
+        donate: Donate
+        source: Source
+        support: Support
+        website: Website
+      no_permissions: This extension has no permissions.
+      no_settings: This extension has no settings.
+      open_modal: Open Settings
+      permissions_title: Permissions
+      purge_button: Purge
       readme:
         button_label: README
-        no_readme: Ovo proširenje nema README fajl
-        title: "{extName} dokumentacija"
+        no_readme: This extension does not appear to have a README file
+        title: "{extName} documentation"
 
     # These translations are used in the secondary header.
     header:
-      get_help: Pomoć
+      get_help: Get Help
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Molimo sačekajte...
+      title: Please Wait...
 
     # These translations are used in the navigation bar.
     nav:
@@ -152,15 +152,15 @@ core:
       basics_button: => core.admin.basics.title
       basics_title: => core.admin.basics.description
       categories:
-        authentication: Autentifikacija
-        core: Konfiguracija
-        discussion: Diskusija
-        feature: Mogučnosti
-        formatting: Formatiranje
-        language: Jezici
-        moderation: Moderacija
-        other: Ostala proširenja
-        theme: Teme
+        authentication: Authentication
+        core: Core Configuration
+        discussion: Discussion
+        feature: Features
+        formatting: Formatting
+        language: Languages
+        moderation: Moderation
+        other: Other Extensions
+        theme: Themes
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
@@ -169,99 +169,99 @@ core:
       permissions_title: => core.admin.permissions.description
       userlist_button: => core.admin.users.title
       userlist_title: => core.admin.users.description
-      search_placeholder: Pretraži proširenja
+      search_placeholder: Search Extensions
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Dozvoli uređivanje objava
-      allow_renaming_label: Dozvoli uređivanje naziva diskusije
-      create_heading: Kreiraj
-      delete_discussions_forever_label: Izbriši diskusije zauvijek
-      delete_discussions_label: Brisanje diskusija
-      delete_posts_forever_label: Trajno brisanje objava
-      delete_posts_label: Izbriši objave
-      description: Podesi ko šta može vidjeti i uraditi.
-      edit_posts_label: Uredi objave
-      edit_users_label: Uredi korisnike
-      edit_users_credentials_label: Uredi akreditive korisnika
-      edit_users_groups_label: Uredi grupe korisnika
-      global_heading: Globalno
-      moderate_heading: Moderacija
-      new_group_button: Nova grupa
-      participate_heading: Dozvole
-      post_without_throttle_label: Odgovoriti više puta bez čekanja
-      read_heading: Čitaj
-      rename_discussions_label: Preimenovanje diskusija
-      reply_to_discussions_label: Odgovori na diskusije
-      search_users_label: Pretraži korisnike
-      sign_up_label: Registracija
-      start_discussions_label: Započni diskusiju
-      title: Dozvole
-      view_discussions_label: Pregled diskusija
-      view_hidden_groups_label: Pregled bedževa skrivenih grupa
-      view_last_seen_at_label: Uvid u posljednju prijavu korisnika
-      view_post_ips_label: Pregled IP adresa
+      allow_post_editing_label: Allow post editing
+      allow_renaming_label: Allow renaming
+      create_heading: Create
+      delete_discussions_forever_label: Delete discussions forever
+      delete_discussions_label: Delete discussions
+      delete_posts_forever_label: Delete posts forever
+      delete_posts_label: Delete posts
+      description: Configure who can see and do what.
+      edit_posts_label: Edit posts
+      edit_users_label: Edit user attributes
+      edit_users_credentials_label: Edit user credentials
+      edit_users_groups_label: Edit user groups
+      global_heading: Global
+      moderate_heading: Moderate
+      new_group_button: New Group
+      participate_heading: Participate
+      post_without_throttle_label: Reply multiple times without waiting
+      read_heading: Read
+      rename_discussions_label: Rename discussions
+      reply_to_discussions_label: Reply to discussions
+      search_users_label: Search users
+      sign_up_label: Sign up
+      start_discussions_label: Start discussions
+      title: Permissions
+      view_forum_label: View forum (discussions and users)
+      view_hidden_groups_label: View hidden group badges
+      view_last_seen_at_label: Always view user last seen time
+      view_post_ips_label: View post IP addresses
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Neograničeno
-      allow_some_minutes_button: "{count, plural, one {nakon # minute} other {nakon # minuta}}"
-      allow_ten_minutes_button: 10 minuta
-      allow_until_reply_button: Do sljedećeg odgovora
-      everyone_button: Svi
+      allow_indefinitely_button: Indefinitely
+      allow_some_minutes_button: "{count, plural, one {For # minute} other {For # minutes}}"
+      allow_ten_minutes_button: For 10 minutes
+      allow_until_reply_button: Until next reply
+      everyone_button: Everyone
       members_button: => core.group.members
-      signup_closed_button: Zatvoreno
-      signup_open_button: Otvoreno
+      signup_closed_button: Closed
+      signup_open_button: Open
 
-    # These translations are used in the Settings modal dialog.
+    # These translations are used generically in setting fields.
     settings:
-      saved_message: Vaše izmjene su spremljene.
+      saved_message: Your changes were saved.
       submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Izaberite sliku...
+      upload_button: Choose an Image...
 
     # These translations are used for the users list on the admin dashboard.
     users:
-      description: Numerisana lista svih registrovanih korisnika Vašeg foruma.
+      description: A paginated list of all users on your forum.
 
       grid:
         columns:
           edit_user:
             button: => core.ref.edit
             title: => core.ref.edit_user
-            tooltip: Uredi korisnika/cu {username}
+            tooltip: Edit {username}
 
           email:
             title: => core.ref.email
-            visibility_hide: Sakrij email adresu
-            visibility_show: Prikaži email adresu
+            visibility_hide: Hide email address
+            visibility_show: Show email address
 
           group_badges:
-            no_badges: Nije član grupa
-            title: Grupe
+            no_badges: None
+            title: Groups
 
           join_time:
-            title: Pridružio/la se
+            title: Joined
 
           user_id:
             title: ID
 
           username:
-            profile_link_tooltip: Posjeti {username} profil korisnika/ce
+            profile_link_tooltip: Visit {username}'s profile
             title: => core.ref.username
 
-        invalid_column_content: Greška
+        invalid_column_content: Invalid
 
       pagination:
-        back_button: Prethodna stranica
-        next_button: Sljedeća stranica
-        page_counter: Stranica {current} od {total}
+        back_button: Previous page
+        next_button: Next page
+        page_counter: Page {current} of {total}
 
       title: => core.ref.users
-      total_users: "Ukupno registrovanih članova foruma: {count}"
+      total_users: "Total users: {count}"
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -271,276 +271,276 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: Šifra koju ste upisali nije ispravna.
+      incorrect_password_message: The password you entered is incorrect.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Pošalji email za ponovno postavljanje šifre
-      text: Kliknite na dugme ispod i provjerite email za link za promjenu/ponovno postavljanje šifre.
+      send_button: Send Password Reset Email
+      text: Click the button below and check your email for a link to change your password.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Zatvori
-      exit_full_screen_tooltip: Izađi iz opcije preko cijelog ekrana
-      full_screen_tooltip: Preko cijelog ekrana
-      minimize_tooltip: Minimiziraj
-      preview_tooltip: Pregled
+      close_tooltip: Close
+      exit_full_screen_tooltip: Exit Full Screen
+      full_screen_tooltip: Full Screen
+      minimize_tooltip: Minimize
+      preview_tooltip: Preview
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Nova objava...
-      discard_confirmation: "Niste upisali/spasili odgovor/objavu/komentar. Jeste li sigurni da želite odustati?"
-      submit_button: Započni diskusiju
+      body_placeholder: Write a Post...
+      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
+      submit_button: Post Discussion
       title: => core.ref.start_a_discussion
-      title_placeholder: Naslov diskusije
+      title_placeholder: Discussion Title
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "Niste spasili promjene. Jeste li sigurni da želite odustati?"
-      edited_message: Uspješno ste izvršili promjene.
-      post_link: "Objava #{number} u {discussion}"
+      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
+      edited_message: Your edit was made.
+      post_link: "Post #{number} in {discussion}"
       submit_button: => core.ref.save_changes
       view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Niste spasili promjene/upisali odgovor. Jeste li sigurni da želite odustati?"
-      posted_message: Vaš odgovor je upisan.
-      submit_button: Odgovori
-      view_button: Pregled
+      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
+      posted_message: Your reply was posted.
+      submit_button: Post Reply
+      view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Upis odgovora onemogućen.
-      cannot_reply_text: Nemate potrebne dozvole za učešće u ovoj diskusiji.
+      cannot_reply_button: Can't Reply
+      cannot_reply_text: You don't have permission to reply to this discussion.
       delete_button: => core.ref.delete
-      delete_confirmation: "Jeste li sigurni da želite izbrisati ovu diskusiju?"
+      delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: PRIJAVA
+      log_in_to_reply_button: Log In to Reply
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
-      toggle_dropdown_accessible_label: Prebaci padajući meni za kontrolu aktivnosti diskusija
+      toggle_dropdown_accessible_label: Toggle discussion actions dropdown menu
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Čini se da ovdje još uvijek nema diskusija/tema/objava... Moguće je da niste registrovani i/ili prijavljeni. Za učešće u diskusijama potrebna je registracija i prijava.
+      empty_text: It looks as though there are no discussions here.
       load_more_button: => core.ref.load_more
-      replied_text: "{username} odgovorio/la {ago}"
-      started_text: "{username} započeo/la {ago}"
-      total_replies_a11y_label: "{count, plural, one {# objava} other {# objava}}"
-      unread_replies_a11y_label: "{count, plural, one {# nepročitana objava} other {# nepročitanih objava}}. Označi nepročitane {count, plural, one {objavu} other {objave}} kao pročitane."
+      replied_text: "{username} replied {ago}"
+      started_text: "{username} started {ago}"
+      total_replies_a11y_label: "{count, plural, one {# reply} other {# replies}}"
+      unread_replies_a11y_label: "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: Poslali smo Vam email koji sarži link (vezu) za ponovno postavljanje Vaše šifre. Ukoliko niste primili email, molimo da provjerite SPAM ili JUNK folder jer neke email poruke završe u njima.
-      not_found_message: U našoj bazi ne postoji korisnik sa email adresom koju ste upisali.
-      submit_button: Ponovno postavljanje šifre.
-      text: Upišite email adresu, a mi ćemo Vam poslati link (vezu) za ponovno postavljanje Vaše šifre.
-      title: Zaboravljena šifra
+      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
+      not_found_message: There is no user registered with that email address.
+      submit_button: Recover Password
+      text: Enter your email address and we will send you a link to reset your password.
+      title: Forgot Password
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administracija
-      back_to_index_tooltip: Povratak na diskusije
-      locale_dropdown_accessible_label: Promijeni jezik foruma
+      admin_button: Administration
+      back_to_index_tooltip: Back to Discussion List
+      locale_dropdown_accessible_label: Change forum locale
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Moj profil
-      search_clear_button_accessible_label: Obriši historiju pretraživanja
-      search_placeholder: Pretraživanje
-      search_role_label: Pretraživanje foruma
-      session_dropdown_accessible_label: Prebaci padajući meni za opcije sesija
+      profile_button: Profile
+      search_clear_button_accessible_label: Clear search query
+      search_placeholder: Search Forum
+      search_role_label: Search Forum
+      session_dropdown_accessible_label: Toggle session options dropdown menu
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Nije moguće započeti diskusiju
-      mark_all_as_read_confirmation: "Jeste li sigurni da želite označiti sve diskusije kao pročitane?"
+      cannot_start_discussion_button: Can't Start Discussion
+      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       meta_title_text: => core.ref.all_discussions
-      refresh_tooltip: Osvježi
+      refresh_tooltip: Refresh
       start_discussion_button: => core.ref.start_a_discussion
-      toggle_sidenav_dropdown_accessible_label: Prebaci padajući navigacioni meni
+      toggle_sidenav_dropdown_accessible_label: Toggle navigation dropdown menu
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Posljednje
-      newest_button: Najnovije
-      oldest_button: Najstarije
-      relevance_button: Relevantno
-      toggle_dropdown_accessible_label: Promijeni sortiranje liste diskusija
-      top_button: Najpopularnije
+      latest_button: Latest
+      newest_button: Newest
+      oldest_button: Oldest
+      relevance_button: Relevance
+      toggle_dropdown_accessible_label: Change discussion list sorting
+      top_button: Top
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Zaboravili ste šifru?"
-      invalid_login_message: Korisnički podaci koje koristite za prijavu nisu ispravni.
+      forgot_password_link: "Forgot password?"
+      invalid_login_message: Your login details were incorrect.
       password_placeholder: => core.ref.password
-      remember_me_label: Zapamti me
-      sign_up_text: "Nemate korisnički račun? <a>Registrirajte se</a>."
+      remember_me_label: Remember Me
+      sign_up_text: "Don't have an account? <a>Sign Up</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Korisničko ime ili Email
+      username_or_email_placeholder: Username or Email
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} je promijenio/la naslov"
-      empty_text: Nema obavještenja
+      discussion_renamed_text: "{username} changed the title"
+      empty_text: No Notifications
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      mark_as_read_tooltip: Označi kao pročitano
+      mark_as_read_tooltip: Mark as Read
       title: => core.ref.notifications
-      toggle_dropdown_accessible_label: Vidi obavještenja
+      toggle_dropdown_accessible_label: View notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Uređivano
-      edited_tooltip: "{username} uredio/la {ago}"
-      number_tooltip: "Objava #{number}"
+      edited_text: Edited
+      edited_tooltip: "{username} edited {ago}"
+      number_tooltip: "Post #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
-      delete_confirmation: "Jeste li sigurni da želite trano obrisati ovu objavu? Ovo je nepovratna akcija."
+      delete_confirmation: "Are you sure you want to delete this post forever? This action cannot be undone."
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
-      hide_confirmation: "Jeste li sigurni da želite obrisati ovu objavu?"
+      hide_confirmation: "Are you sure you want to delete this post?"
       restore_button: => core.ref.restore
-      toggle_dropdown_accessible_label: Prebaci padajući meni za kontrolu objava
+      toggle_dropdown_accessible_label: Toggle post controls dropdown menu
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Sada
-      original_post_link: Početak diskusije
-      unread_text: "{count} nepročitano"
-      viewing_text: "{count, plural, one {{index} od {formattedCount} objave} other {{index} od {formattedCount} objava}}"
+      now_link: Now
+      original_post_link: Original Post
+      unread_text: "{count} unread"
+      viewing_text: "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'Stari naslov je bio: "{old}"'
-      discussion_renamed_text: "{username} je promijenio/la naslov u {new}."
+      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
+      discussion_renamed_text: "{username} changed the title to {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} poslije"
+      time_lapsed_text: "{period} later"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Preimenuj diskusiju
+      title: Rename Discussion
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Pretraži sve diskusije koje sadrže "{query}"'
+      all_discussions_button: 'Search all discussions for "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Korisnički račun
+      account_heading: Account
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Neko je promijenio naslov diskusije koju sam započeo/la
-      privacy_disclose_online_label: Dozvoli ostalim korisnicima da vide kada sam online
-      privacy_heading: Privatnost
+      notify_discussion_renamed_label: Someone renames a discussion I started
+      privacy_disclose_online_label: Allow others to see when I am online
+      privacy_heading: Privacy
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      log_in_text: "Već imate korisnički račun? <a>Prijavite se.</a>"
+      log_in_text: "Already have an account? <a>Log In</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Dobro došao/la, {username}!"
+      welcome_text: "Welcome, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Postavi
-      avatar_upload_tooltip: Postavi novu profilnu sliku
+      avatar_upload_button: Upload
+      avatar_upload_tooltip: Upload a new avatar
       discussions_link: => core.ref.discussions
-      in_discussion_text: "U diskusiji o temi {discussion}"
-      joined_date_text: "Član od {ago}"
+      in_discussion_text: "In {discussion}"
+      joined_date_text: "Joined {ago}"
       online_text: Online
-      posts_empty_text: Čini se da ovdje nema objava...
+      posts_empty_text: It looks like there are no posts here.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Kontrole
+      button: Controls
       delete_button: => core.ref.delete
-      delete_confirmation: "Jeste li sigurni da želite izbrisati ovog korisnika? Sve korisnikove objave će biti obrisane!"
-      delete_error_message: "Brisanje korisnika <i>{username} ({email})</i> neuspješno"
-      delete_success_message: "Korisnik <i>{username} ({email})</i> je izbrisan"
+      delete_confirmation: "Are you sure you want to delete this user? The user's posts will NOT be deleted."
+      delete_error_message: "Deletion of user <i>{username} ({email})</i> failed"
+      delete_success_message: "User <i>{username} ({email})</i> was deleted"
       edit_button: => core.ref.edit
-      toggle_dropdown_accessible_label: Prebaci padajući meni za kontrolu korisnika
+      toggle_dropdown_accessible_label: Toggle user controls dropdown menu
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Ponovo pošalji potvrdni email
-      sent_message: Poruka poslana
+      resend_button: Resend Confirmation Email
+      sent_message: Sent
 
-      welcome_hero:
-      hide: Sakrij poruku dobrodošlice
+    welcome_hero:
+      hide: Hide welcome message
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
-    debug_button: Otklanjanje grešaka
+    debug_button: Debug
 
     # These translations are used in the Alert component.
     alert:
-      dismiss_a11y_label: Otkaži upozorenje
+      dismiss_a11y_label: Dismiss alert
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Skriveno
+      hidden_tooltip: Hidden
 
     # These translations are used in the dropdown component.
     dropdown:
-      toggle_dropdown_accessible_label: Prebaci padajući meni
+      toggle_dropdown_accessible_label: Toggle dropdown menu
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Aktiviraj korisnika
+      activate_button: Activate User
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Grupe
+      groups_heading: Groups
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Postavi novu šifru
+      set_password_label: Set new password
       submit_button: => core.ref.save_changes
       title: => core.ref.edit_user
       username_heading: => core.ref.username
       username_label: => core.ref.username
-      nothing_available: Nemate dopuštenje uređivati ovaj korisnički račun.
+      nothing_available: You are not allowed to edit this user.
 
     # These translations are displayed as error messages.
     error:
-      dependent_extensions_message: "Prije onemogućavanja proširenja {extension} potrebno je onemogućiti ova proširenja: {extensions}"
-      generic_message: "Greška! Nešto nije u redu. Osvježite stranicu i pokušajte ponovo."
-      missing_dependencies_message: "Prije omogućavanja proširenja {extension} potrebno je omogućiti ova proširenja: {extensions}"
-      not_found_message: Traženi resurs nije pronađen.
-      payload_too_large_message: Opterećenje zahtjeva je preveliko.
-      permission_denied_message: Nemate dozvolu za ovu aktivnost.
-      rate_limit_exceeded_message: Prebrzi ste... Sačekajte koji trenutak i pokušajte ponovo.
-      render_failed_message: Žao nam je, došlo je do greške prilikom prikaza ovog sadržaja. Ukoliko ste korisnik, molimo Vas da pokušate kasnije. Ako ste administrator i/ili urednik foruma, za više informacija provjerite dnevnik aktivnosti i zapisnik o greškama i problemima.
+      dependent_extensions_message: "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}"
+      generic_message: "Oops! Something went wrong. Please reload the page and try again."
+      missing_dependencies_message: "Cannot enable {extension} until the following dependencies are enabled: {extensions}"
+      not_found_message: The requested resource was not found.
+      payload_too_large_message: The request payload was too large.
+      permission_denied_message: You do not have permission to do that.
+      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      render_failed_message: Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information.
 
     # These translations are used in the loading indicator component.
     loading_indicator:
@@ -548,16 +548,16 @@ core:
 
     # Translations in this namespace are used to format page meta titles.
     meta_titles:
-      with_page_title: "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Stranica # - {forumName}}}"
-      without_page_title: "{pageNumber, plural, =1 {{forumName}} other {Stranica # - {forumName}}}"
+      with_page_title: "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}"
+      without_page_title: "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
 
     # These translations are used in modals.
     modal:
-      close: Zatvori
+      close: Close
 
     # These translations are used in the navigation header.
     nav:
-      drawer_button: Otvorite polja navigacije
+      drawer_button: Open Navigation Drawer
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -567,12 +567,12 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, i {third}"
-      two_text: "{first} i {second}"
+      three_text: "{first}, {second}, and {third}"
+      two_text: "{first} and {second}"
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[izbrisan/a]"
+      deleted_text: "[deleted]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -580,26 +580,26 @@ core:
     admin:
       extensions:
         caption: => core.ref.extensions
-        disable: Onemogući
-        empty: Nema instaliranih proširenja
-        enable: Omogući
-        name: Naziv proširenja
-        package_name: Ime paketa
-        version: Verzija
+        disable: Disable
+        empty: No installed extensions
+        enable: Enable
+        name: Extension Name
+        package_name: Package Name
+        version: Version
       info:
-        caption: Informacije o aplikaciji
-      title: Administracija
+        caption: Application Info
+      title: Administration
 
     # Translations in this namespace are displayed by the Confirm Email interface.
     confirm_email:
       submit_button: => core.ref.confirm_email
-      text: Kliknite na dugmić ispod za potvrđivanje email adrese koja je povezana sa ovim korisnički račun.
+      text: Click the button below to confirm your account's email.
       title: => core.ref.confirm_email
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: Ova web stranica je najbolje prikazana u web pregledniku sa omogućenim JavaScript.
-      load_error_message: Nešto nije u redu. Pokušajte osvježiti stranicu.
+      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
+      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
       loading_text: => core.ref.loading
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
@@ -609,14 +609,14 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      csrf_token_mismatch: Niste aktivni već duže vrijeme.
-      csrf_token_mismatch_return_link: Vratite se na prethodnu stranicu i pokušajte ponovo
-      invalid_confirmation_token: Ova potvrdna veza (link) je već iskorištena ili je neispravna.
-      not_authenticated: Nemate dozvolu pristupiti ovoj stranici. Pokušajte ponovo nakon prijave na Forum.
-      not_found: Stranica koju tražite nije pronađena.
-      not_found_return_link: "Povratak na {forum}"
-      permission_denied: Nemate dozvolu pristupiti ovoj stranici.
-      unknown: Dogodila se nepoznata greška prilikom otvaranja ove stranice. Pokušajte ponovo ili posjetite početnu stranicu.
+      csrf_token_mismatch: You have been inactive for too long.
+      csrf_token_mismatch_return_link: Go back, to try again
+      invalid_confirmation_token: This confirmation link has already been used or is invalid.
+      not_authenticated: You do not have permission to access this page. Try again after logging in.
+      not_found: The page you requested could not be found.
+      not_found_return_link: "Return to {forum}"
+      permission_denied: You do not have permission to access this page.
+      unknown: An error occurred while trying to load this page.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -627,73 +627,73 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Jeste li sigurni da se želite odjaviti iz foruma {forum}?"
+      log_out_confirmation: "Are you sure you want to log out of {forum}?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Potvrdite novu šifru
-      new_password_label: Nova šifra
+      confirm_password_label: Confirm New Password
+      new_password_label: New Password
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "Korisničko ime može sadržavati samo slova i brojeve."
+    invalid_username_message: "The username may only contain letters, numbers, and dashes."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Aktivirajte Vaš korisnički račun
+      subject: Activate Your New Account
       body: |
-        Poštovani/a {username},
+        Hey {username}!
 
-        Neko (a nadamo se da ste to bili Vi!) je upravo registrovan na {forum} sa Vašom email adresom.
+        Someone (hopefully you!) has signed up to {forum} with this email address.
 
-        Ukoliko ste to bili Vi, jednostavno kliknite na link (vezu) ispod i korisnički račun će biti aktiviran:
+        If this was you, simply click the following link and your account will be activated:
         {url}
 
-        Ukoliko Vi niste izvršili registraciju, molimo da ignorišete ovu poruku.
+        If you did not sign up, please ignore this email.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Potvrdite novu email adresu
+      subject: Confirm Your New Email Address
       body: |
-        Poštovani/a {username},
+        Hey {username}!
 
-        Neko (a nadamo se da ste to bili Vi!) je upravo promijenio email pomoću kojeg je registrovan na {forum} i upisao email adresu na koju Vam šaljemo ovu poruku.
+        Someone (hopefully you!) has changed their email address on {forum} to this one.
 
-        Ukoliko ste to bili Vi, jednostavno kliknite na link (vezu) ispod i Vaša nova email adresa će uspješno biti potvrđena.
+        If this was you, simply click the following link and your email will be confirmed:
         {url}
 
-        Ukoliko Vi niste izvršili pomjenu email adrese, molimo da ignorišete ovu poruku.
+        If this was not you, please ignore this email.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Poštovani/a {username},
+        Hey {username}!
 
-        Neko (a nadamo se da ste to bili Vi!) je upravo podnio zahtjev za promjenu šifre korisničkog računa na {forum}.
+        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
 
-        Ukoliko ste to bili Vi, jednostavno kliknite na link (vezu) ispod i Vaša nova šifra će uspješno biti potvrđena.
+        If this was you, click the following link to reset your password:
         {url}
 
-        Ukoliko Vi niste izvršili pomjenu šifre, molimo da ignorišete ovu poruku.
+        If you do not wish to change your password, just ignore this email and nothing will happen.
 
-# These translations are used when testing mailing configuration
+    # These translations are used when testing mailing configuration
     send_test:
       subject: Flarum Email Test
       body: |
-        Poštovani/na {username}!
+        Hey {username}!
 
-        Ovo je test email potvrde da email konfiguracija foruma radi kako treba.
+        This is a test email to confirm that your Flarum email configuration is working properly.
 
-        Ukoliko ste Vi poslali ovu email poruku, to znači da je konfiguracija uspješna.
+        If this was you, this email means that your configuration works!
 
-        Ukoliko niste Vi poslali ovu poruku, jednostavno je ignorišit i izbrišite.
+        If this was not you, please ignore this email.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -701,52 +701,52 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: Sve diskusije
-    change_email: Promijeni email adresu
-    change_password: Promijeni šifru
-    color: Boje                                 # Referenced by flarum-tags.yml
-    confirm_password: Potvrdi šifru
-    confirm_email: Potvrdi email adresu
-    confirmation_email_sent: "Poslali smo potvrdnu poruku na email adresu {email}. Ukoliko uskoro ne primite email poruku, provjerite JUNK ili SPAM folder."
+    all_discussions: All Discussions
+    change_email: Change Email
+    change_password: Change Password
+    color: Color                                 # Referenced by flarum-tags.yml
+    confirm_password: Confirm Password
+    confirm_email: Confirm Email
+    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
     custom_footer_title: Edit Custom Footer
     custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
     custom_header_title: Edit Custom Header
-    delete: Izbriši
-    delete_forever: Izbriši zauvijek
-    discussions: Diskusije                     # Referenced by flarum-statistics.yml
-    edit: Uredi
-    edit_user: Uredi korisnika
+    delete: Delete
+    delete_forever: Delete Forever
+    discussions: Discussions                     # Referenced by flarum-statistics.yml
+    edit: Edit
+    edit_user: Edit User
     email: Email
-    extensions: Proširenja
-    icon: Ikonica
+    extensions: Extensions
+    icon: Icon
     icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
-    load_more: Prikaži više
-    loading: Učitavam...
-    log_in: PRIJAVA
-    log_out: ODJAVA
-    mark_all_as_read: Označi sve kao pročitano
-    next_page: Sljedeća stranica
-    notifications: Obavještenja
+    load_more: Load More
+    loading: Loading...
+    log_in: Log In
+    log_out: Log Out
+    mark_all_as_read: Mark All as Read
+    next_page: Next Page
+    notifications: Notifications
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Šifra
-    posts: Objave                                 # Referenced by flarum-statistics.yml
-    previous_page: Prethodna stranica
-    remove: Ukloni
-    rename: Preimenuj
-    reply: Odgovori                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset šifre
-    restore: Vrati
-    save_changes: Spasi izmjene                  # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Postavke
-    sign_up: REGISTRACIJA
-    some_others: "{count, plural, one {# drugi} other {# drugih}}"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Započni diskusiju
-    username: Korisničko ime
-    users: Korisnici                                 # Referenced by flarum-statistics.yml
-    view: Pregled
-    write_a_reply: Nova objava...
-    you: Vi                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    password: Password
+    posts: Posts                                 # Referenced by flarum-statistics.yml
+    previous_page: Previous Page
+    remove: Remove
+    rename: Rename
+    reply: Reply                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Reset Your Password
+    restore: Restore
+    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Settings
+    sign_up: Sign Up
+    some_others: "{count, plural, one {# other} other {# others}}"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Start a Discussion
+    username: Username
+    users: Users                                 # Referenced by flarum-statistics.yml
+    view: View
+    write_a_reply: Write a Reply...
+    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -754,11 +754,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Administrator
-    admins: Administratori
-    guest: Gost
-    guests: Gosti
-    member: Član
-    members: Članovi
-    mod: Moderator
-    mods: Moderatori
+    admin: Admin
+    admins: Admins
+    guest: Guest
+    guests: Guests
+    member: Member
+    members: Members
+    mod: Mod
+    mods: Mods
