@@ -9,6 +9,7 @@ fof-reactions:
     modal:
         title: Reakcije
     mod_item: Vidi reakcije
+    react_button_label: Reaguj
 
   admin:
     permissions:
