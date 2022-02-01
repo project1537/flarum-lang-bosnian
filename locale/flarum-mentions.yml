@@ -69,7 +69,7 @@ flarum-mentions:
 
     # These translations are used in emails sent when a user is mentioned
     user_mentioned:
-      subject: "{mentioner_display_name} mentioned you in {title}"
+      subject: "{mentioner_display_name} Vas je spomenuo/la u diskusiji o temi {title}"
       body: |
         Poštovani/na {recipient_display_name}!
 
