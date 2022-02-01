@@ -5,34 +5,61 @@ fof-best-answer:
       best_answer_not_own_discussion: Odaberite najbolji odgovor (diskusije drugih)
     settings:
       label:
-        general: General
-        reminders: Reminders
-        advanced: Advanced
+        general: Općenito
+        reminders: Podsjetnici
+        advanced: Napredno
         reminders_notice: For reminders to function correctly, you must have set up the Flarum scheduler correctly.
       allow_select_own_post: Dozvoli korisnicima da za najbolji odgovor odaberu vlastite objave
-      select_best_answer_reminder_days: Podsjeti korisnike da izaberu najbolji odgovor nakon X dana
+      allow_select_own_post_help: Dozvoli pokretaču diskusije da izaberu jedno od vlasitih objava u diskusiji kao najbolji odgovor
+      enable_all_tags_button: Omogući da se najbolji odgovor izabere u svim oznakama
+      enable_all_tags_reminder_button: Omogući podsjetnike za izbor najboljeg odgovora u svim oznakama
+      select_best_answer_reminder_days: Frekventnost podsjetnika
+      select_best_answer_reminder_days_help: Pošalji podsjetnik pokretaču diskusije nakon određenog broja dana da izabere najbolju objavu/najbolji odgovor, 0 = isključi podsjetnike.
       schedule_on_one_server: Koristi 'onOneServer()' direktivu za raspored zadataka (zahtijeva Redis/Memcache)
-      schedule_stop_overnight: Onemogući zakazane podsjetnike da budu aktivirani u određeno vrijeme (9pm - 8am serversko vrijeme)
+      schedule_on_one_server_help: Zahtijeva Redis/Memcache
+      schedule_stop_overnight: Onemogući zakazane podsjetnike da budu aktivirani u određeno vrijeme 
+      schedule_stop_overnight_help: 9pm - 8am serversko vrijeme
       schedule_log_output: Dodaj dnevnik aktivnosti u arhivu
-      remind_tag_ids: Za onemogućavanje podsjetnika o određenoj oznaci diskusije, dodaj ID oznake ovdje (odvojiti zarezima)
-      use_alt_ui: Korisni alternativni prikaz opcija (dugmić za najbolji odgovor smješten na dnu objave)
+      show_filter_label: Prikaži padajući meni za izbor najboljeg odgovora
+      show_filter_help: Za oznake u kojima je omogućen izbor najboljeg odgovora u diskusijama omogući filter odgovoreno/neodgovoreno u listi diskusija
+      use_alt_ui: Alternativni prikaz
+      use_alt_ui_help: Kontrole izbora najboljeg odgovora u podnožju
+      documentation: Dokumentacija
+      introduction: |
+        Enable which tags are to support Best Answers in <code><a>flarum/tags</a></code>, and optionally which tag(s) should support reminders. When a tag is Best Answer enabled, assign permissions to each user group that may set answers (own discussion, any discussion). Permissions may be assigned globally (for any Best Answer anabled tag), or on a per tag basis.
+    edit_tag:
+      qna_label: Omogući izbor najboljeg odgovora u ovoj oznaci
+      reminders: Postavi podsjetnike za izbor najboljeg odgovora u diskusijama pod ovom oznakom
   forum:
     answered_badge: Odgovoreno
     this_best_answer: Odaberi najbolji odgovor
     remove_best_answer: Ukloni oznaku "najbolji odgovor"
-    best_answer_button: NAJBOLJI ODGOVOR
+    best_answer_button: Najbolji odgovor
     best_answer_label: izabrao/la <a>{username}</a>
     errors:
       mismatch: "Odabrana objava ne postoji u ovoj diskusiji"
 
     notification:
       best_answer_in_discussion: "{username} je izabrao/la najbolji odgovor/najbolju objavu u ovoj diskusiji"
-      content: Molimo Vas da odaberete najbolji odgovor ako je ova diskusija završena
-      awarded: Vaša objava je označena kao najbolji odgovor u diskusiji od strane korisnika/ce {username}
+      content: Molimo Vas da odaberete najbolji odgovor/najbolju objavu ako je ova diskusija završena
+      awarded: Vaša objava je označena kao najbolji odgovor/najbolja objava u diskusiji od strane korisnika/ce {username}
 
       preferences:
         awarded_best_answer: Kad je neko označio moju objavu kao najbolji odgovor
         best_answer_in_discussion: Kad je izabran najbolji odgovor/najbolja objava u diskusiji u kojoj učestvujem
+  
+  index:
+      ask_question: Postavi pitanje
+      cannot_ask_question: Nije moguće postaviti pitanje
+      solved_link: Riješene diskusije
+      unsolved_link: Neriješene diskusije
+    filter:
+      all_label: Sva pitanja
+      solved_label: Riješena pitanja
+      unsolved_label: Neriješena pitanja
+      accessible_label: Izbor riješeno/neriješeno
+    composer:
+      titlePlaceholder: Naslov pitanja
   email:
     subject:
       awarded: Vaša objava je izabrana kao najbolji odgovor u diskusiji od stane korisnika/ce {display_name}
