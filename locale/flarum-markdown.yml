@@ -9,4 +9,6 @@ flarum-markdown:
       link_tooltip: Dodaj poveznicu (link)
       ordered_list_tooltip: Dodaj numerisanu listu
       quote_tooltip: Upiši citat
+      spoiler_tooltip: Unesi spojler
+      strikethrough_tooltip: Dodaj precrtani tekst
       unordered_list_tooltip: Dodaj listu
