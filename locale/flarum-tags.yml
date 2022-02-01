@@ -17,7 +17,7 @@ flarum-tags:
       delete_tag_button: Brisanje oznake
       delete_tag_confirmation: "Jeste li sigurni da želite izbrisati ovu oznaku? Diskusije i teme koje se mogu pronaći pod ovom oznakom NEĆE biti izbrisane."
       description_label: Opis
-      hide_label: Skrivanje oznaka iz svih diskusija
+      hide_label: Sakrij oznake iz svih diskusija
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
@@ -66,9 +66,10 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
+      bypass_requirements: Zaobiđi izbor i postavke oznaka
       choose_primary_placeholder: "Izaberite primarnu oznaku|Izaberite {count} primarne oznake"
       choose_secondary_placeholder: "Izaberite još jednu oznaku|Izaberite još {count} oznake"
-      edit_title: "Uredite oznake diskusije/teme {title}"
+      edit_title: "Uredite oznake diskusije o temi {title}"
       submit_button: => core.ref.okay
       title: Izaberite oznake Vaše diskusije/teme
 
