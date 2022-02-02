@@ -100,7 +100,7 @@ fof-byobu:
             private_discussion_created: |
                 Poštovani/na {recipient_display_name},
 
-                {actor_display_name} je započeo/la novu privatnu diskusiju s Vama o temi '{discussion_title}'.
+                {actor_display_name} je započeo/la novu privatnu diskusiju s Vama o temi {discussion_title}.
 
                 Ovu novu privatnu diskusiju možete pogledati na:
                 {discussion_url}
@@ -110,7 +110,7 @@ fof-byobu:
             private_discussion_replied: |
                 Poštovani/na {recipient_display_name},
 
-                {actor_display_name} je upisao/la objavu u privatnoj diskusiji s Vama o temi '{discussion_title}'.
+                {actor_display_name} je upisao/la objavu u privatnoj diskusiji s Vama o temi {discussion_title}.
 
                 Spomenutu privatnu diskusiju možete pogledati na:
                 {post_url}
@@ -120,7 +120,7 @@ fof-byobu:
             recipient_removed: |
                 Poštovani/na {recipient_display_name},
 
-                {actor_display_name} je napustio/la privatnu diskusiju o temi'{discussion_title}'. Navedeni korisnik Foruma više nema pristup sadržajima diskusije koju je napustio/la.
+                {actor_display_name} je napustio/la privatnu diskusiju o temi {discussion_title}. Navedeni korisnik Foruma više nema pristup sadržajima diskusije koju je napustio/la.
 
                 Spomenutu privatnu diskusiju možete pogledati na:
                 {discussion_url}
@@ -130,7 +130,7 @@ fof-byobu:
             private_discussion_added: |
                 Poštovani/na {recipient_display_name},
 
-                {actor_display_name} Vas je dodao/la u postojeću privatnu diskusiju o temi '{discussion_title}'.
+                {actor_display_name} Vas je dodao/la u postojeću privatnu diskusiju o temi {discussion_title}.
 
                 Spomenutu privatnu diskusiju možete pogledati na:
                 {discussion_url}
