@@ -10,15 +10,15 @@ fof-byobu:
             edit_recipients: Uredi učesnike
             send_pd: "Pošalji korisniku/ci {username} poruku"
             cancel: Odustani
+            make_public: Učini ovu diskusiju javno dostupnom
             remove_from_discussion: Napusti ovu privatnu diskusiju
             
         composer_private_discussion:
             submit_button: Započni privatnu diskusiju
             title_placeholder: Naslov privatne diskusije
         
-         confirm:
+        confirm:
             make_public: Sigurni ste da želite ukloniti učesnike diskusije i time učiniti diskusiju vidljivom svim korisnicima koji imaju pristup oznaci pod kojom je diskusija objavljena?
-
                     
         labels:
             recipients: "{count, plural, one {{count} učesnik/ca} other {{count} učesnika/ca}}"
