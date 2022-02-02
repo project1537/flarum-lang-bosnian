@@ -3,11 +3,12 @@ fof-byobu:
         badges:
             is_private:
                 tooltip: Privatna diskusija
+        
         buttons:
             add_recipients: Učesnici diskusije
             submit: OK
             edit_recipients: Uredi učesnike
-            send_pd: "Pošalji poruku korisniku/ci {username}"
+            send_pd: "Pošalji korisniku/ci {username} poruku"
             cancel: Odustani
             remove_from_discussion: Napusti ovu privatnu diskusiju
             
@@ -21,8 +22,7 @@ fof-byobu:
                     
         labels:
             recipients: "{count, plural, one {{count} učesnik/ca} other {{count} učesnika/ca}}"
-            user_deleted: -izbrisan-
-        
+                    
         nav:
             start_button: Nova diskusija
             nav_item: "Privatne diskusije"
@@ -40,8 +40,8 @@ fof-byobu:
                 add_recipients: Dodaj učesnike privatne diskusije
             
             labels:
-                selected_users: Odabrani/ne učesnici/ce
-                search_field: Traži učesnika/cu
+                selected_users: Odabrani/ne korisnici/ce
+                search_field: Traži korisnika/cu
             
             help:
                 add_recipients: Ova privatna diskusija će biti vidljiva samo korisnicima/članovima Foruma koje ovdje izaberete. Potrebno je da izaberete najmanje 1 učesnika privatne diskusije (pored Vas samih).
