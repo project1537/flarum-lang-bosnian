@@ -1,0 +1,58 @@
+justoverclock-feedback:
+  admin:
+    contactmail: Email adresa na koju će (pri)stizati kontakt poruke
+    feedback1-title: Tip kontakta 1
+    feedback1-title-help: Ovdje prilagodite naziv "tipa kontakta 1"
+    feedback1-icon: Ikonica za tip kontakta 1
+    feedback1-icon-help: Umetnite ikonicu uz tekst, npr. "⚠️, ☎️, ✏️" - Windows (Win + .) MacOS 🌐
+    feedback2-title: Tip kontakta 2
+    feedback2-title-help: Ovdje prilagodite naziv "tipa kontakta 2"
+    feedback2-icon: Ikonica za tip kontakta 2
+    feedback2-icon-help: Umetnite ikonicu uz tekst, npr. "⚠️, ☎️, ✏️" - Windows (Win + .) MacOS 🌐
+    feedback3-title: Tip kontakta 3
+    feedback3-title-help: Ovdje prilagodite naziv "tipa kontakta 3"
+    feedback3-icon: Ikonica za tip kontakta 3
+    feedback3-icon-help: Umetnite ikonicu uz tekst, npr. "⚠️, ☎️, ✏️" - Windows (Win + .) MacOS 🌐
+    contactdesc: Ovo polje mora biti ispunjeno kako bi se u potpunosti omogućio kontakt dugmić
+    collect-email: Prikaži korisnicima (opcionalno) polje za unos email adrese
+    collect-email-help: Kada je ova opcija omogućena, korisnici će moći dodati vlastitu email adresu uz kontakt poruku
+    position: Pozicija kontakt dugmića
+    position-help: Izaberite donju lijevu ili donju desnu stranu na kojoj će biti prikazan kontakt dugmić
+    right_label: Desno
+    left_label: Lijevo
+    background-color: Pozadinska boja kontakt dugmića
+    background-color-help: Unesite hex kod boje koja će biti korištena kao boja pozadine, npr. '#fff'
+    font-color: Boja teksta kontakt dugmića
+    font-color-help: Unesite hex kod boje koja će biti korištena kao boja teksta, npr. '#000'
+    box-title: Naziv kontakt prozorčića
+    box-title-help: Upišite naziv kontakt prozorčića
+  api:
+    validation_error: Nije moguće poslati praznu poruku! Upišite tekst (sadržaj) kontakt poruke.
+  forum:
+    button-title: Kontakt
+    feedback-widget:
+      title: Kontakt
+      placeholder: Ovdje upišite tekst poruke
+      email-placeholder: Email (neobavezno)
+      submit: Pošalji
+      back: Nazad
+      contact-text: ili pošaljite email poruku!
+      type-message: Izaberite razlog kontakt(iranj)a
+      success: Hvala Vam!
+      failed-title: Hm... došlo je do greške.
+      failed-message: Molimo Vas pokušajte ponovo. Ukoliko se ponovo dogodi ista greška, pokušajte nas kontaktirati direktno putem emaila.
+      email-field-placeholder: Email (neobavezno polje)
+      types:
+        general: Općenito
+        idea: Ideje i prijedlozi
+        bug: Prijava greške
+    email:
+      guest: anonimni korisnik
+      subject: Kontakt
+      body: |
+       Nova poruka u vezi {type} od korisnika/ce {user}!
+
+       {message}
+
+       Email: {email}
+       Url: {url}
