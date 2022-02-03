@@ -1,0 +1,6 @@
+justoverclock-country-flags:
+  forum:
+    inputCountryCode: Šifrarnik država
+    saveButton: Spremi
+    clickToSelectCountry: Kliknite za izbor države
+    countrySaved: Izbor države spremljen!
