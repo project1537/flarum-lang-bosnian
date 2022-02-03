@@ -45,7 +45,7 @@ core:
       show_language_selector_label: Show language selector
       slug_driver_heading: "Slug Driver: {model}"
       slug_driver_text: Select a driver to be used for slugging this model.
-      title: Osnovne
+      title: Osnove
       welcome_banner_heading: Pozdravna poruka
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
 
