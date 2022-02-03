@@ -49,17 +49,17 @@ fof-best-answer:
         best_answer_in_discussion: Kad je izabran najbolji odgovor/najbolja objava u diskusiji u kojoj učestvujem
 
     index:
-      ask_question: Postavi pitanje
-      cannot_ask_question: Nije moguće postaviti pitanje
+      ask_question: Započni diskusiju
+      cannot_ask_question: Nije moguće započeti diskusiju
       solved_link: Riješene diskusije
       unsolved_link: Neriješene diskusije
     filter:
-      all_label: Sva pitanja
-      solved_label: Riješena pitanja
-      unsolved_label: Neriješena pitanja
+      all_label: Sva pitanja i diskusije
+      solved_label: Riješena pitanja i diskusije
+      unsolved_label: Neriješena pitanja i diskusije
       accessible_label: Izbor riješeno/neriješeno
     composer:
-      titlePlaceholder: Naslov pitanja
+      titlePlaceholder: Naslov diskusije
   email:
     subject:
       awarded: Vaša objava je izabrana kao najbolji odgovor u diskusiji od stane korisnika/ce {display_name}
