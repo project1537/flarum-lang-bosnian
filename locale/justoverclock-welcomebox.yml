@@ -4,7 +4,7 @@ flarum-ext-welcomebox:
     npost: => core.ref.posts
     discussion: => core.ref.discussions
     welcomeguest: Dobro došli
-    notregistered: Nemate korisnički račun? Registrirajte se.
+    notregistered: Nemate korisnički račun?
     goToProfile: Moj profil
     SettingsLink: Postavke
     tooltipProfile: Moj profil
